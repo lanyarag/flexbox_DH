@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 42 - Mesa de trabalho</title>
+    <style type="text/css">
+        body {
+            background-color: black;
+            color: white;
+            padding: 20px;
+        }
+
+        h1{
+            font-size: 40px;
+        }
+
+        .l-ComoFunciona {
+            text-align: center;
+            margin-bottom: 150px;
+            font-size: 20px;
+
+        }
+
+        .l-CardsComoFunciona{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 100px;
+
+        }
+
+
+
+        .botao{
+            border: 1px;
+            border-style: solid;
+            border-color:gray;
+            padding: 12px;
+            
+            /* Afastar das fotos - margin-top */
+        }
+
+        .l-CtaComoFunciona a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .l-AlbumSocialRock h2 {
+            display: flex;
+            justify-content: center;
+            font-size: 40px;
+        }
+
+        .l-ImagensAlbumSocialRock {
+            align-items: center;
+        }
+
+        .img1 {
+            display: flex;
+            float: left;
+            width: 50%;
+            height: fit-content;
+        }
+
+        .img2 {
+            display: flex;
+            float: right;
+            width: 50%;
+            height: fit-content;
+        } 
+
+
+
+
+    </style>
+</head>
+<body>
+    
+    <section class="l-ComoFunciona">
+        <h1 class="titulo texto-centralizado">Como funciona?</h1>
+        <div class="l-CardsComoFunciona">
+            <figure class="cartao">
+                <img 
+                    class="cartao__imagem" 
+                    src="./imagens/img0.png" 
+                    alt=""
+                >
+                <figcaption class="cartao__corpo">Fique por dentro do calendário<br> de eventos da Social Rock Club.</figcaption>
+            </figure>
+            <figure class="cartao">
+                <img 
+                    class="cartao__imagem" 
+                    src="./imagens/img0.png" 
+                    alt=""
+                >
+                <figcaption class="cartao__corpo">No fim da página clique no<br>botão comprar com desconto.</figcaption>
+            </figure>
+            <figure class="cartao">
+                <img 
+                    class="cartao__imagem" 
+                    src="./imagens/img0.png" 
+                    alt=""
+                >
+                <figcaption class="cartao__corpo">Inscreva-se ou se conecte<br>a conta para finalizar a compra.</figcaption>
+            </figure>
+        </div>
+        <div class="l-CtaComoFunciona">
+            <a class="botao" href="">Seja membro</a>
+        </div>
+    </section>
+
+    <section class="l-AlbumSocialRock">
+        <h2 class="titulo texto-centralizado">#AlbumSocialRock</h2>
+        <div class="l-ImagensAlbumSocialRock">
+            <img class="img1"
+                src="./imagens/img1.png" 
+                alt=""
+            >
+            <img class="img1"
+                src="./imagens/img2.png" 
+                alt=""
+            >
+            <img class="img2"
+                src="./imagens/img3.png" 
+                alt=""
+            >
+            <img class="img2"
+                src="./imagens/img4.png" 
+                alt=""
+            >
+        </div>
+    </section>
+
+</body>
+</html>
